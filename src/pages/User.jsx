@@ -22,7 +22,7 @@ function User() {
 
     getUserData()
 
-  }, [dispatch, params.login]]);
+  }, [dispatch, params.login]);
 
   const {
     name,
