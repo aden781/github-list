@@ -1,4 +1,5 @@
 import React from 'react'
+import RepoItem from '../repos/RepoItem'
 
 function RepoList({repos}) {
     return (
@@ -8,8 +9,7 @@ function RepoList({repos}) {
               Latest Respositories
             </h2>
             {repos.map((repo) => (
-            //   <RepoItem key={repo.id} repo={repo} />
-            <h3>{repo.name}</h3>
+              <RepoItem key={repo.id} repo={repo} />
             ))}
           </div>
         </div>
